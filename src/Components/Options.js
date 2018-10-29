@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 
 class Options extends Component {
   render() {
-    //console.log(this.props);
     return (
-      <li className="Option">
-      
+      <li className="Options">
+        <i>{this.props.option.title}</i>
       </li>
     );
   }
