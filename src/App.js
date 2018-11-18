@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Assets from './Components/Assets';
+import Categories from './Components/Categories';
 import AddItem from './Components/AddItem';
 //import uuid from 'uuid';
 import $ from 'jquery';
@@ -64,7 +64,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>NetWorth App</h1>
-        <Assets options={this.state.options} />
+        <Categories options={this.state.options} />
         <AddItem />
       </div>
     );

@@ -12,8 +12,8 @@ class Assets extends Component {
         );
       });
     return (
-      <div className="Assets">
-        <h2>Assets</h2>
+      <div className="Categories">
+        <h2>Categories</h2>
         {optionItems}
       </div>
     );

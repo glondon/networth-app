@@ -8,7 +8,7 @@ class AddItem extends Component {
     }
   }
   static defaultProps = {
-    categories: ['Asset', 'Liability', 'Monthly Expense', 'Monthly Income']
+    categories: ['Asset', 'Liability', 'Credit Cards', 'Credit Lines', 'Monthly Income', 'Monthly Expense']
   }
 
   handleSubmit(e){
