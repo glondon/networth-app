@@ -7,3 +7,7 @@ li.Options {
     margin-left: 10px;
     float: left;
 }
+
+#errors {
+  color:red;
+}
