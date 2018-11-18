@@ -54,6 +54,8 @@ class AddItem extends Component {
         console.log(this.state);
         //this.props.addItem(this.state.added);
       });
+      document.getElementById('success').innerHTML = 'Item successfuly added';
+      document.getElementById('addItemForm').reset();
     }
   }
 
@@ -64,8 +66,9 @@ class AddItem extends Component {
     return (
       <div>
         <h3>Add Item</h3>
+        <div id="success"></div>
         <ul id="errors"></ul>
-        <form onSubmit={this.handleSubmit.bind(this)}>
+        <form onSubmit={this.handleSubmit.bind(this)} id="addItemForm">
           <table cellSpacing="5">
           <tbody>
             <tr>
