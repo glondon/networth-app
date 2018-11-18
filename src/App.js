@@ -65,6 +65,7 @@ class App extends Component {
       <div className="App">
         <h1>NetWorth App</h1>
         <Categories options={this.state.options} />
+        <br />
         <AddItem />
       </div>
     );
